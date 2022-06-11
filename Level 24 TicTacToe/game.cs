@@ -209,6 +209,7 @@ namespace Level_24_TicTacToe
                 }
                 WinCheck();
                 validator = false;
+                Console.Clear();
 
                 while (validator == false)
                 {

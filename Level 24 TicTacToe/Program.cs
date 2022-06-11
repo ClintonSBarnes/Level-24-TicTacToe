@@ -6,8 +6,9 @@ thisGame.stillPlaying = true;
 
 while (thisGame.stillPlaying == true)
 {
+    Console.Clear();
     thisGame.gameBoard();
-
+    thisGame.WinCheck();
     thisGame.playerTurns();
 
     thisGame.WinCheck();
