@@ -9,7 +9,7 @@ while (thisGame.stillPlaying == true)
     thisGame.gameBoard();
 
     thisGame.playerTurns();
-    
 
+    thisGame.WinCheck();
 
 }

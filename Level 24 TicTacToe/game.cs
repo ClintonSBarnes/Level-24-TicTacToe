@@ -19,7 +19,7 @@ namespace Level_24_TicTacToe
             matrix[2] = new string[3] { " ", " ", " " };
         }
 
-        public void gameBoard()
+        public void gameBoard() // builds the game board. 
         {
             string board =
                 $"\n  |       Y     |" +
@@ -53,6 +53,7 @@ namespace Level_24_TicTacToe
             return thisPosition;
         }
 
+        //checks for wins and draws
         public void WinCheck()
         {
 
@@ -163,7 +164,7 @@ namespace Level_24_TicTacToe
 
 
 
-
+        //handles each player's turn
         public void playerTurns()
         {
             string Xs;
